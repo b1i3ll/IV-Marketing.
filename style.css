@@ -1,0 +1,82 @@
+body {
+    background-color: #fff;
+    --azul-escuro: #4682B4;
+    --azul-claro: #B0C4DE;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+  }
+  
+  input[type=checkbox] {
+    border: 2px solid var(--marrom-claro);
+    box-shadow: none;
+  }
+    
+  input[type=checkbox]:checked,
+  input[type="checkbox"]:focus {
+    background-color: var(--azul-claro);
+    border-color: var(--azul-claro);
+    box-shadow: none;
+    outline: none;
+  }
+
+  .banner-capa {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .banner-1 {
+    background-image: url(./assets/banner-1.png)
+  }
+  
+  .banners {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .banners-titulo {
+    --bs-bg-opacity: .2;
+  }
+  
+  .banner-2{
+    background-image: url(./assets/banner-2.png);
+  }
+  
+  .sobre{
+    font-size: 22px;
+    font-weight: 545;
+    margin: 5%;
+  }
+  
+
+  
+  .banners-titulo {
+      --bs-bg-opacity: .2;
+  }
+  
+  .botao-padrao {
+    background-color: var(--azul-claro);
+  }
+  
+  .botao-secundario{
+    background-color: white;
+    text-decoration: none;
+    color: black; 
+    margin-right: 10px;
+    border: 6px solid white; 
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .botao-padrao:hover {
+    background-color: var(--azul-escuro);
+  }
