@@ -28,9 +28,7 @@ body {
     background-attachment: fixed;
   }
 
-  .banner-1 {
-    background-image: url(./assets/banner-1.png)
-  }
+  
   
   .card{
     background-color: #ffff;
@@ -69,6 +67,12 @@ body {
   
   .botao-padrao {
     background-color: var(--azul-claro);
+  }
+
+  @media (max-width: 575.98px) { 
+    .navbar-toggler {
+      background-color: white; /* Define o fundo para branco no modo mobile */
+    }
   }
   
   .botao-secundario{
