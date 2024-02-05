@@ -64,6 +64,15 @@ body {
     border-radius: 12px;
     
   }
+
+  .titulos{
+    margin: 20px;
+  }
+
+  .texto{
+    text-align: left;
+  }
+
   .banners-titulo {
       --bs-bg-opacity: .0;
   }
@@ -78,6 +87,15 @@ body {
     }
   }
   
+  .botão{
+    padding: 1rem 1.5rem; /* Aumenta o padding */
+    font-size: 1.75rem; /* Aumenta o tamanho da fonte */
+    border-radius: 0.5rem;
+  }
+
+  .fundo{
+    background-image: linear-gradient(to bottom, #d1f4ff, #fff);
+  }
   .botao-secundario{
     background-color: #d1f4ff;
     text-decoration: none;
