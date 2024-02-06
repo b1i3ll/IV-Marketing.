@@ -71,6 +71,8 @@ body {
 
   .texto{
     text-align: left;
+    font-weight: 10;
+    font-size: 20.5px;
   }
 
   .banners-titulo {
